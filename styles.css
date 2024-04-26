@@ -20,7 +20,7 @@ The designs were created to the following widths:
 - Dark Slate Grey: hsl(234, 29%, 20%)
 - Charcoal Grey: hsl(235, 18%, 26%)
 - Grey: hsl(231, 7%, 60%)
-- White: hsl(0, 0%, 100%)
+- White: 
 
 ## Typography
 
@@ -34,3 +34,11 @@ The designs were created to the following widths:
 - Weights: 400, 700
 
 > 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. */
+
+:root {
+    --orangeRed: hsl(4, 100%, 67%);
+    --darkGray: hsl(234, 29%, 20%);
+    --charcoalGray: hsl(235, 18%, 26%);
+    --gray: hsl(231, 7%, 60%);
+    --white: hsl(0, 0%, 100%);
+}
