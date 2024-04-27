@@ -32,8 +32,7 @@ The designs were created to the following widths:
 
 - Family: [Roboto](https://fonts.google.com/specimen/Roboto)
 - Weights: 400, 700
-
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma. */
+ */
 
 :root {
     --orangeRed: hsl(4, 100%, 67%);
@@ -41,4 +40,8 @@ The designs were created to the following widths:
     --charcoalGray: hsl(235, 18%, 26%);
     --gray: hsl(231, 7%, 60%);
     --white: hsl(0, 0%, 100%);
+}
+
+body {
+    font-family: 'Roboto';
 }
