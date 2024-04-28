@@ -33,7 +33,11 @@ The designs were created to the following widths:
 - Family: [Roboto](https://fonts.google.com/specimen/Roboto)
 - Weights: 400, 700
  */
-
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
 :root {
     --orangeRed: hsl(4, 100%, 67%);
     --darkGray: hsl(234, 29%, 20%);
@@ -44,4 +48,9 @@ The designs were created to the following widths:
 
 body {
     font-family: 'Roboto';
+}
+
+article {
+   display: flex;
+   flex-direction: column;
 }
