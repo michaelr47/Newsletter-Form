@@ -53,8 +53,11 @@ body {
 article {
    display: flex;
    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+
 }
 
-img {
+article img {
     width: 100%;
 }
