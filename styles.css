@@ -54,10 +54,26 @@ article {
    display: flex;
    flex-direction: column;
    justify-content: center;
-   align-items: center;
-
 }
 
 article img {
     width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+}
+
+h1.updated {
+    font-size: 2.5rem;
+    color: var(--darkGray);
+}
+
+article p {
+    margin-top: 2rem;
+}
+
+@media only screen and (min-width: 768px) {
+    article img {
+        width: auto;
+    }
+    
 }
