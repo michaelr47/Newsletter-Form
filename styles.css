@@ -114,10 +114,38 @@ article p {
     color: var(--white);
     font-weight: 700;
 }
+#subscribe:hover {
+    cursor: pointer;
+}
 
 @media only screen and (min-width: 768px) {
+    body {
+        background-color: var(--charcoalGray);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        
+    }
+
+    article {
+        background-color: var(--white);
+        border-radius: 20px;
+        padding: 1rem;
+        width: 800px;
+        height: 630px;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .article-content {
+        order: -1;
+    }
     article img {
         width: auto;
+        margin: 0px;
     }
+
+    
     
 }
