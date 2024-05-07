@@ -11,7 +11,7 @@
   <title>Newsletter</title>
 </head>
 <body>
-  <article>
+  <article class="hidden">
     <picture>
       <source media="(min-width: 768px)" srcset="./assets/images/illustration-sign-up-desktop.svg">
       <img src="./assets/images/illustration-sign-up-mobile.svg" alt="">
@@ -49,13 +49,14 @@
 
   </article>
   
-  <div class="success hidden"> 
-    <img src="./assets/images/icon-success.svg" alt="">
-    
-    <h2>Thanks for subscribing!</h2>
+  <div class="success">
+    <div class="success-content">
+      <img src="./assets/images/icon-success.svg" alt="">
+      
+      <h2>Thanks for subscribing!</h2>
 
-    <p>A confirmation email has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm your subscription.</p>
-    
+      <p>A confirmation email has been sent to ash@loremcompany.com. Please open it and click the button inside to confirm your subscription.</p>
+    </div>
     <button>Dismiss message</button>
     
   </div>
