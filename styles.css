@@ -95,6 +95,10 @@ article p {
     padding: 1.5rem;
 }
 
+.email:focus {
+    outline: 1px solid var(--darkGray);
+}
+
 .emailContainer label {
     font-size: 12px;
     font-weight: 700;
@@ -116,8 +120,10 @@ article p {
     color: var(--white);
     font-weight: 700;
 }
-#subscribe:hover {
+#subscribe:hover, .success button:hover {
     cursor: pointer;
+    background-image: linear-gradient(to right, red, var(--orangeRed));
+    box-shadow: 0px 5px 25px 2px var(--orangeRed);
 }
 
 .success {
