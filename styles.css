@@ -119,15 +119,17 @@ article p {
     background-color: var(--darkGray);
     color: var(--white);
     font-weight: 700;
+   
+  
 }
 #subscribe:hover, .success button:hover {
     cursor: pointer;
     background-image: linear-gradient(to right, hsl(4, 82%, 59%), var(--orangeRed));
     box-shadow: 0px 5px 25px 2px var(--orangeRed);
+    transition: all .125s ease-in;
 }
 
 .success {
-    color: hsl(4, 82%, 59%);
     padding: 1rem;
     margin-top: 5rem;
     height: 90vh;
