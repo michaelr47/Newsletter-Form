@@ -14,6 +14,8 @@ subscribeButton.addEventListener('click', () => {
     if (emailValidation()) {
         articleCard.classList.add('hidden');
         successMessage.classList.remove('hidden');
-    } else return;
+    } else {
+        emailInput.placeholder = 'ash#loremcompany.com'
+    };
 
 })

@@ -99,10 +99,11 @@ article p {
     outline: 1px solid var(--darkGray);
 }
 
-.emailContainer label {
+.emailContainer label, .errorMessage {
     font-size: 12px;
     font-weight: 700;
-} 
+}
+.errorMessage { color: red; }
 .emailContainer input {
     margin: 10px 0px 0px;
     width: 100%;
@@ -112,6 +113,10 @@ article p {
     border: .5px solid var(--gray);
 }
 
+.innerEmail { 
+    display: flex;
+    justify-content: space-between;
+}
 #subscribe {
     padding: 1rem;
     border-radius: 5px;
