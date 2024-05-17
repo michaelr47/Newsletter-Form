@@ -18,6 +18,7 @@ subscribeButton.addEventListener('click', () => {
     } else {
         emailInput.placeholder = 'ash#loremcompany.com';
         emailInput.classList.add('errorPlaceholder');
+        emailInput.classList.add('backgroundError');
         errorMessage.classList.remove('hidden');
     };
 
