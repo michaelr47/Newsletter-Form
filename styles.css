@@ -98,12 +98,16 @@ article p {
 .email:focus {
     outline: 1px solid var(--darkGray);
 }
+.errorPlaceholder::placeholder {
+    color: red;
+}
 
 .emailContainer label, .errorMessage {
     font-size: 12px;
     font-weight: 700;
 }
 .errorMessage { color: red; }
+
 .emailContainer input {
     margin: 10px 0px 0px;
     width: 100%;
