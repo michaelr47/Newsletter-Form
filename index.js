@@ -1,6 +1,6 @@
 const emailInput = document.querySelector('input');
 const subscribeButton = document.getElementById('subscribe');
-const errorMessage = document.querySelector('.errorMessage');
+const errorMessage = document.querySelector('.errorMessage')
 const emailValidation = () => {
     const regex = /^[a-zA-Z0–9._-]+@[a-zA-Z0–9.-]+\.[a-zA-Z]{2,4}$/;
     return regex.test(emailInput.value);
