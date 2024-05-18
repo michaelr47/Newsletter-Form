@@ -95,15 +95,16 @@ article p {
     padding: 1.5rem;
 }
 
-.email:focus {
+.email:active {
     outline: 1px solid var(--darkGray);
 }
 .errorPlaceholder::placeholder, .errorMessage {
-    color: red;
+    color: var(--orangeRed);
 }
 .backgroundError {
     transition: all .5s ease;
-    background-color: rgb(242, 186, 186);
+    background-color: rgb(253, 226, 226);
+    outline: 1px solid var(--orangeRed);
 }
 
 .emailContainer label, .errorMessage {
