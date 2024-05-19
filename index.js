@@ -38,4 +38,9 @@ emailInput.addEventListener('keydown', () => {
 dismissMessage.addEventListener('click', () => {
     articleCard.classList.remove('hidden');
     successMessage.classList.add('hidden');
+    clearInputField();
 })
+
+function clearInputField() {
+    emailInput.value = '';
+}
