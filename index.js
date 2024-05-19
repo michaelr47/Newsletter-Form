@@ -4,12 +4,11 @@ const errorMessage = document.querySelector('.errorMessage')
 const dismissMessage = document.getElementById('dismiss');
 const articleCard = document.querySelector('article');
 const successMessage = document.querySelector('.success');
+
 const emailValidation = () => {
     const regex = /^[a-zA-Z0–9._-]+@[a-zA-Z0–9.-]+\.[a-zA-Z]{2,4}$/;
     return regex.test(emailInput.value);
 }
-
-
 
 subscribeButton.addEventListener('click', () => {
 
