@@ -28,7 +28,6 @@ emailInput.addEventListener('keydown', () => {
     if (emailInput.classList.contains('errorPlaceholder')) {
         emailInput.classList.remove('errorPlaceholder');
         emailInput.classList.remove('backgroundError');
-        emailInput.placeholder = '';
         errorMessage.classList.add('hidden');
 
     }
